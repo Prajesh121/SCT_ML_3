@@ -1,106 +1,57 @@
-\# Defect Detection in Packaged Products using SVM
+# Defect Detection in Packaged Products using SVM
 
+**Internship Project Task 3 – Handpac India Pvt. Ltd.**
 
-
-\*\*Internship Project Task 3 – Handpac India Pvt. Ltd.\*\*
-
-
-
-This project demonstrates \*\*image-based defect detection in packaged products\*\* using Support Vector Machines (SVM).  
-
+This project demonstrates **image-based defect detection in packaged products** using a Support Vector Machine (SVM).  
 It was completed as part of a machine learning internship.
 
+---
 
+## 📊 Features Used
+
+| Feature                  | Description                                             |
+|---------------------------|---------------------------------------------------------|
+| Flattened image pixels    | Input features derived from resized images (64x64 px) |
+| Target                    | `Good Product` vs `Defective Product`                  |
+
+**Note:** The dataset uses images of cats and dogs repurposed to simulate good vs defective packages.
 
 ---
 
+## 📁 Dataset
 
+- Folder: `train/` containing images  
+- Classes: `Good Product` and `Defective Product`  
+- Limit: 500 images per class for faster training  
+- Images are resized to **64x64 pixels** and flattened for SVM input  
 
-\## 📊 Features Used
-
-
-
-\- Input: Flattened images of packages (resized to 64x64 pixels)  
-
-\- Target: `Good Product` vs `Defective Product`  
-
-
-
-\*\*Note:\*\* The dataset is originally images of cats and dogs, repurposed to simulate good vs defective products.
-
-
+**Optional:** You can expand the dataset with real packaging images for better accuracy.
 
 ---
 
+## 🛠️ Tech Stack
 
-
-\## 📁 Dataset
-
-
-
-\- Folder: `train/` containing images  
-
-\- Classes: `Good Product` and `Defective Product`  
-
-\- Limit: 500 images per class for faster training  
-
-
-
-\*\*Optional:\*\* You can expand the dataset for better accuracy.
-
-
+- Python  
+- OpenCV  
+- NumPy  
+- Matplotlib  
+- Scikit-Learn (SVM)  
+- Jupyter Notebook  
 
 ---
 
+## 📈 Output
 
-
-\## 🛠️ Tech Stack
-
-
-
-\- Python  
-
-\- OpenCV  
-
-\- NumPy  
-
-\- Matplotlib  
-
-\- Scikit-Learn (SVM)  
-
-\- Jupyter Notebook  
-
-
+- **SVM Model** trained to classify packages as good or defective  
+- **Evaluation Metrics:**  
+  - Accuracy  
+  - Classification Report (Precision, Recall, F1-score)  
+- **Visualization:** Sample images with predicted labels  
 
 ---
 
+## 🔍 How to Run
 
-
-\## 📈 Output
-
-
-
-\- \*\*SVM Model\*\* trained to classify packages  
-
-\- \*\*Evaluation Metrics:\*\* Accuracy and Classification Report  
-
-\- \*\*Visualization:\*\* Sample images with predicted labels  
-
-
-
----
-
-
-
-\## 🔍 How to Run
-
-
-
-1\. Clone the repository:
-
+1. Clone the repository:
 ```bash
-
-git clone https://github.com/Prajesh121/SCT\_ML\_3.git
-
-
-
+git clone https://github.com/Prajesh121/SCT_ML_3.git
