@@ -2,11 +2,11 @@
 
 
 
-Internship Project Task 3 – Handpac India Pvt. Ltd.
+\*\*Internship Project Task 3 – Handpac India Pvt. Ltd.\*\*
 
 
 
-This project demonstrates image-based defect detection in packaged products using Support Vector Machines (SVM).  
+This project demonstrates \*\*image-based defect detection in packaged products\*\* using Support Vector Machines (SVM).  
 
 It was completed as part of a machine learning internship.
 
@@ -20,13 +20,13 @@ It was completed as part of a machine learning internship.
 
 
 
-\- Input Flattened images of packages (resized to 64x64 pixels)  
+\- Input: Flattened images of packages (resized to 64x64 pixels)  
 
-\- Target `Good Product` vs `Defective Product`  
+\- Target: `Good Product` vs `Defective Product`  
 
 
 
-Note The dataset is originally images of cats and dogs, repurposed to simulate good vs defective products.
+\*\*Note:\*\* The dataset is originally images of cats and dogs, repurposed to simulate good vs defective products.
 
 
 
@@ -38,15 +38,15 @@ Note The dataset is originally images of cats and dogs, repurposed to simulate g
 
 
 
-\- Folder `train` containing images  
+\- Folder: `train/` containing images  
 
-\- Classes `Good Product` and `Defective Product`  
+\- Classes: `Good Product` and `Defective Product`  
 
-\- Limit 500 images per class for faster training  
+\- Limit: 500 images per class for faster training  
 
 
 
-Optional You can expand the dataset for better accuracy.
+\*\*Optional:\*\* You can expand the dataset for better accuracy.
 
 
 
@@ -80,11 +80,11 @@ Optional You can expand the dataset for better accuracy.
 
 
 
-\- SVM Model trained to classify packages  
+\- \*\*SVM Model\*\* trained to classify packages  
 
-\- Evaluation Metrics Accuracy and Classification Report  
+\- \*\*Evaluation Metrics:\*\* Accuracy and Classification Report  
 
-\- Visualization Sample images with predicted labels  
+\- \*\*Visualization:\*\* Sample images with predicted labels  
 
 
 
@@ -96,11 +96,11 @@ Optional You can expand the dataset for better accuracy.
 
 
 
-1\. Clone the repository
+1\. Clone the repository:
 
 ```bash
 
-git clone httpsgithub.comPrajesh121SCT\_ML\_3.git
+git clone https://github.com/Prajesh121/SCT\_ML\_3.git
 
 
 
