@@ -1,38 +1,106 @@
-# Defect Detection in Packaged Products (SVM + HOG)
+\# Defect Detection in Packaged Products using SVM
 
-**Internship Project Task 3 – Handpac India Pvt. Ltd.**
 
-This project demonstrates a prototype for **detecting defective vs good packaged products** using image-based machine learning.  
-It repurposes a classic Cat vs Dog SVM pipeline and applies it to manufacturing: classify images as `good` or `defective`.
 
----
+Internship Project Task 3 – Handpac India Pvt. Ltd.
 
-## 📁 Dataset
-- **Source:** You can reuse an image dataset (e.g., Cat vs Dog samples) and remap categories to `good`/`defective`, or collect sample images from the factory.
-- **Expected layout:** `data/images/good/` and `data/images/defective/`. Put JPEG/PNG images in these folders.
-- **Note:** Do not push large image datasets to GitHub. Instead include a small sample and instructions to obtain the full dataset if required.
 
----
 
-## 🛠️ Approach
-1. Preprocess images (resize, grayscale)
-2. Extract HOG (Histogram of Oriented Gradients) features per image
-3. Train SVM classifier (GridSearchCV over linear and RBF kernels)
-4. Evaluate using accuracy, confusion matrix, and classification report
-5. Save trained model (`models/svm_defect_model.pkl`)
+This project demonstrates image-based defect detection in packaged products using Support Vector Machines (SVM).  
+
+It was completed as part of a machine learning internship.
+
+
 
 ---
 
-## 📂 Files
-- `notebooks/defect_detection_svm.ipynb` — full notebook (code + visualizations)
-- `src/train_svm.py` — standalone training script
-- `data/images/` — expected local image folders (`good/`, `defective/`)
-- `models/svm_defect_model.pkl` — saved model (after training)
-- `README.md` — this file
+
+
+\## 📊 Features Used
+
+
+
+\- Input Flattened images of packages (resized to 64x64 pixels)  
+
+\- Target `Good Product` vs `Defective Product`  
+
+
+
+Note The dataset is originally images of cats and dogs, repurposed to simulate good vs defective products.
+
+
 
 ---
 
-## ▶️ How to run (local)
-1. Install dependencies:
+
+
+\## 📁 Dataset
+
+
+
+\- Folder `train` containing images  
+
+\- Classes `Good Product` and `Defective Product`  
+
+\- Limit 500 images per class for faster training  
+
+
+
+Optional You can expand the dataset for better accuracy.
+
+
+
+---
+
+
+
+\## 🛠️ Tech Stack
+
+
+
+\- Python  
+
+\- OpenCV  
+
+\- NumPy  
+
+\- Matplotlib  
+
+\- Scikit-Learn (SVM)  
+
+\- Jupyter Notebook  
+
+
+
+---
+
+
+
+\## 📈 Output
+
+
+
+\- SVM Model trained to classify packages  
+
+\- Evaluation Metrics Accuracy and Classification Report  
+
+\- Visualization Sample images with predicted labels  
+
+
+
+---
+
+
+
+\## 🔍 How to Run
+
+
+
+1\. Clone the repository
+
 ```bash
-pip install -r requirements.txt
+
+git clone httpsgithub.comPrajesh121SCT\_ML\_3.git
+
+
+
